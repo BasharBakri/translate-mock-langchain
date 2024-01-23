@@ -23,7 +23,7 @@ export default function Home() {
         <li className="text-l">
           📝
           <span className="ml-2">
-            Current auto translation services aren't fully capable of dealing with spoken dialects. This project aims to solve this problem.
+            Current auto translation services are not fully capable of dealing with spoken dialects. This project aims to solve this problem.
           </span>
         </li>
         <li className="text-l">
@@ -61,8 +61,8 @@ export default function Home() {
         <li>
           👨🏽‍🏫
           <span className="ml-2">
-            For now, give Muhsen, our translator, a try. He'll try his absolute best to translate your text to Egyptian Arabic.
-            He might not succeed yet, as he's still learning, but he'll get there!
+            For now, give Muhsen, our translator, a try. He will try his absolute best to translate your text to Egyptian Arabic.
+            He might not succeed yet, as he is still learning, but he will get there!
           </span>
         </li>
         <li className="text-l">
