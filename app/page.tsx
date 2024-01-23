@@ -3,8 +3,8 @@ import { ChatWindow } from "@/components/ChatWindow";
 export default function Home() {
 
   return (
-    <div className="p-4 md:p-8 rounded bg-[#25252d] w-full max-h-[85%] overflow-hidden">
-      <h1 className="text-3xl md:text-4xl mb-4">
+    <div className="p-4 md:p-8 rounded bg-[#25252d] w-full h-svh ">
+      <h1 className="text-2xl md:text-4xl mb-4">
         Welcome to Ammiya 🔮
       </h1>
       <ul>
@@ -68,7 +68,10 @@ export default function Home() {
         <li className="text-l">
           👆🏽
           <span className="ml-2">
-            Go to the translate tab and write whatever text you want for Muhsen like <code>How are you doing?</code>
+            Go to the translate tab and write whatever text you want for Muhsen like
+            {
+              " "
+            }<code>How are you doing?</code>
           </span>
         </li>
       </ul>
