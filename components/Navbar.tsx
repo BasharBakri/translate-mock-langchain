@@ -7,7 +7,6 @@ export function Navbar() {
   return (
     <nav className="mb-4">
       <a className={`mr-4 ${pathname === "/" ? "text-white border-b" : ""}`} href="/">Overview</a>
-      <a className={`mr-4 ${pathname === "/retrieval" ? "text-white border-b" : ""}`} href="/retrieval">🐶 Retrieval</a>
       <a className={`mr-4 ${pathname === "/translate" ? "text-white border-b" : ""}`} href="/translate">🌐 Translate</a>
     </nav>
   );

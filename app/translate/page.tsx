@@ -1,7 +1,9 @@
 import { ChatWindow } from "@/components/ChatWindow";
+import { Button } from "@/components/ui/Button";
+import { UploadDocumentsForm } from "@/components/UploadDocumentsForm";
 
 export default function TranslatePage() {
-
+  const isLoading = false;
   return (
     <>
       <ChatWindow
@@ -12,7 +14,7 @@ export default function TranslatePage() {
           'Type: How are you doing?'
         }
         emoji="👨🏽"
-        titleText="Translating to Egyptian Arabic"
+        titleText="🇪🇬 Translation"
       ></ChatWindow>
     </>
   );

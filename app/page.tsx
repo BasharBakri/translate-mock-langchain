@@ -9,15 +9,30 @@ export default function Home() {
       </h1>
       <ul>
         <li className="text-l">
-          🎈
+          🎯
           <span className="ml-2">
-            This mock-up template showcases a translator LLM that will be trained on Arabic dialects.
+            This mock-up template showcases a translator LLM that will be trained on translating spoken Arabic dialects.
+          </span>
+        </li>
+        <li className="text-l">
+          📖
+          <span className="ml-2">
+            This translator will be able in the future to provide translation in the requested spoken Arabic dialect.
           </span>
         </li>
         <li className="text-l">
           📝
           <span className="ml-2">
-            LLMs and other translators aren't fully capable of translating spoken dialects. As most of their data set comes from formal text or MSA "Modern Standard Arabic".
+            Current auto translation services aren't fully capable of dealing with spoken dialects. This project aims to solve this problem.
+          </span>
+        </li>
+        <li className="text-l">
+          🔊
+          <span className="ml-2">
+            The project will train on text files as well as on audio files using{" "}
+            <a href="https://openai.com/research/whisper" target="_blank">
+              Whisper
+            </a>{" "} and use distinct phonetic sounds to identify the spoken language.
           </span>
         </li>
         <li className="hidden text-l md:block">
@@ -26,21 +41,27 @@ export default function Home() {
             Relevant Tech stack to acheive this goal: {" "}
             <a href="https://js.langchain.com/" target="_blank">
               LangChain.js
-            </a>{" "}
-            and the Vercel{" "}
+            </a>{", "}
+            the Vercel{" "}
             <a href="https://sdk.vercel.ai/docs" target="_blank">
               AI SDK
             </a>{" "}
             and the OpenAI{" "}
             <a href="https://platform.openai.com/docs/introduction" target="_blank">
               API
-            </a>{" "}
+            </a>.
+          </span>
+        </li>
+        <li>
+          📁
+          <span className="ml-2">
+            The project intends to allow uploading various file formats and accept audio to translate.
           </span>
         </li>
         <li>
           👨🏽‍🏫
           <span className="ml-2">
-            Why not give Muhsen, our translator, a try? He'll try his absolute best to translate your text to Egyptian Arabic.
+            For now, give Muhsen, our translator, a try. He'll try his absolute best to translate your text to Egyptian Arabic.
             He might not succeed yet, as he's still learning, but he'll get there!
           </span>
         </li>
