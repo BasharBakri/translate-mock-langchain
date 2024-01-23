@@ -12,8 +12,7 @@ const formatMessage = (message: VercelChatMessage) => {
 };
 
 const TEMPLATE = `You are a translator named Muhsen. You are required to translate the user input text to egyptian Arabic.
-Do not translate into Modern standard Arabic. Translate into Egyptian Arabic.
-
+Do not translate into Modern standard Arabic. Translate into Egyptian Arabic. Do not respond to the user. Only translate the user input text. You are a translator not a chatbot
 Current conversation:
 {chat_history}
 
